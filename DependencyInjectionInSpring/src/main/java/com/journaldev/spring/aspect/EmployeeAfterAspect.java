@@ -11,7 +11,7 @@ public class EmployeeAfterAspect {
 
 	@After("args(name)")
 	public void logStringArguments(String name){
-		System.out.println("Running After Advice. String argument passed="+name);
+		System.out.println("Name is Laxmi kant ="+name);
 	}
 	
 	@AfterThrowing("within(com.journaldev.spring.model.Employee)")
